@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css">   
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+   <div class="search-section">
+	  <p><a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Click to search a random Wiki article</a></p>
+	  <form>
+		<input type="text" id="input" />
+		<div id="icons">
+		  <button type="button" id="search"><i class="fa fa-search"></i></button>
+		  <button type="button" id="close" class="toggleSection"><i class="fa fa-close" id="close"></i></button>
+		</div>
+		<!--icons-->
+		<p>Click the icon to search the article</p>
+	  </form>
+	  <div id="results-section"></div>
+	</div>
+	<!--search-section-->
+	
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/4c3a2e2c94.js"></script>
+	<script src="js/index.js"></script>
+      
+  </body>
+</html>
